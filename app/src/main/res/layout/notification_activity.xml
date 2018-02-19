@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft= "@dimen/activity_horizontal_margin"
+    android:paddingRight = "@dimen/activity_horizontal_margin"
+    android:paddingTop = "@dimen/activity_vertical_margin"
+    android:paddingBottom = "@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/imageCongrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/congrat"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/textMejorRepe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageCongrat"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:text="*You have improved the number of repetitions"
+        />
+    <TextView
+        android:id="@+id/textMejorDura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMejorRepe"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:text="*You've improved runtime"
+        />
+    <TextView
+        android:id="@+id/textMejorSeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMejorDura"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:text="*The number of series has improved"
+        />
+    <TextView
+        android:id="@+id/textMejorWeig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMejorSeri"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:text="*The weight you lift has improved"
+        />
+
+
+</RelativeLayout>

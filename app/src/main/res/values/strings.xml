@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gym Virtual</string>
+    <string name="title">Management of Gym Routines</string>
+    <string name="user">Enter your user name</string>
+    <string name="pass">Enter your password</string>
+    <string name="btnIniciar">Sign in</string>
+    <string name="btnRegistrar">Register</string>
+    <string name="textRegister">Register</string>
+    <string name="textName">Name:</string>
+    <string name="textLastName">Last Name:</string>
+    <string name="textUserName">User Name:</string>
+    <string name="textPass">Password:</string>
+    <string name="textAge">Age:</string>
+    <string name="textWeigth">Weigth:</string>
+    <string name="textHeigth">Heigth:</string>
+    <string name="textDateBirth">Date Birth:</string>
+    <string name="textPhoto">Photo:</string>
+    <string name="btnPhoto">...</string>
+</resources>
